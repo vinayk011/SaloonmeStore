@@ -121,7 +121,7 @@ class UserProfileFragment2 : BaseFragment<FragmentUserProfile2Binding>(){
                         }
                         TO_COLLAPSED -> binding.flBackground.apply {
                             alpha = 0F
-                            setBackgroundColor(ContextCompat.getColor(context, R.color.colorPrimaryLight))
+                            setBackgroundColor(ContextCompat.getColor(context, R.color.colorPrimary))
                             animate().setDuration(250).alpha(1.0F)
                             /* show titles on toolbar with animation*/
                             binding.tvProfileNameSingle.apply {

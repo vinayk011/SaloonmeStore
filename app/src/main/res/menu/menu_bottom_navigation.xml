@@ -12,14 +12,14 @@
         android:title="@string/bookings" />
 
     <item
-        android:id="@+id/navigation_orders"
-        android:icon="@drawable/ic_orders"
-        android:title="@string/orders" />
+        android:id="@+id/navigation_manage_store"
+        android:icon="@drawable/ic_action_manage_store"
+        android:title="@string/manage_store" />
 
     <item
-        android:id="@+id/navigation_blog"
-        android:icon="@drawable/ic_blog"
-        android:title="@string/blog" />
+        android:id="@+id/navigation_explore"
+        android:icon="@drawable/ic_action_explore"
+        android:title="@string/explore" />
 
     <item
         android:id="@+id/navigation_profile"

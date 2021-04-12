@@ -34,7 +34,7 @@
                 android:gravity="center"
                 android:text="@{message}"
                 tools:text="Loading"
-                android:textColor="@color/colorPrimaryLight"
+                android:textColor="@color/colorPrimary"
                 android:textSize="15sp" />
 
     </LinearLayout>

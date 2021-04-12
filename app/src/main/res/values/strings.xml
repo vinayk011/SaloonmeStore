@@ -52,8 +52,8 @@
     <!-- Bottom navigation menu fields  -->
     <string name="menu">Menu</string>
     <string name="home">Home</string>
-    <string name="orders">Orders</string>
-    <string name="blog">Blog</string>
+    <string name="manage_store">Manage Store</string>
+    <string name="explore">Explore</string>
     <string name="user">User</string>
     <string name="desc_location">img_location</string>
     <string name="category_men">MEN</string>
@@ -90,5 +90,25 @@ Maecenas mattis, erat et viverra euismod, neque diam porttitor tellus, in fringi
 Praesent tincidunt lorem sit amet mi consequat cursus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vitae blandit sapien. Curabitur est sapien, lobortis sit amet facilisis vel, faucibus eu quam. Nam tempus libero at tellus tempor laoreet. Pellentesque quam lorem, tincidunt in molestie eget, dictum vel risus. Nunc gravida convallis mattis.
     </string>
     <string name="user_name">User name</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="bank_details_caption">Save your account details for  faster access</string>
+    <string name="store_details">Store Details</string>
+    <string name="store_details_caption">Manage store timings and details</string>
+    <string name="profile_details">Profile Details</string>
+    <string name="profile_details_caption">Change your profile details and password</string>
+    <string name="about_us">About US</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="logout">Logout</string>
+    <string name="seat_creation">Seat Creation</string>
+    <string name="seat_creation_desc">"Manage seat creation "</string>
+    <string name="barber_creation">Barber Creation</string>
+    <string name="barber_creation_desc">Manage barber creation</string>
+    <string name="product_creation">Product Creation</string>
+    <string name="product_creation_desc">Manage product creation</string>
+    <string name="barbers">Barbers</string>
+    <string name="services">Services</string>
+    <string name="seats">Seats</string>
+    <string name="add_barber">Add Barber</string>
 
 </resources>

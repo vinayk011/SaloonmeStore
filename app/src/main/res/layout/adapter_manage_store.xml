@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.ezeetech.saloonme.store.model.ListItem" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/layout_manage_Store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/constraint_margin">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/constraint_margin">
+
+            <ImageView
+                android:id="@+id/thumb_nail"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:scaleType="centerCrop"
+                android:src="@{model.icon}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/ic_action_seat_creation" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/constraint_margin"
+                app:layout_constraintTop_toBottomOf="@+id/thumb_nail"
+                app:layout_constraintStart_toStartOf="@id/thumb_nail"
+                app:layout_constraintEnd_toEndOf="@id/thumb_nail"
+                android:text="@{model.title}"
+                tools:text="@string/seat_creation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

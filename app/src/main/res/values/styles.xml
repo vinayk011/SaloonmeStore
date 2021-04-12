@@ -35,7 +35,7 @@
 
     <style name="RoundHintStyle" parent="Widget.Design.TextInputLayout">
         <item name="boxStrokeColor">@color/colorSecondary</item>
-        <item name="hintTextColor">@color/colorPrimaryLight</item>
+        <item name="hintTextColor">@color/colorPrimary</item>
     </style>
 
     <style name="InputTextStyle" parent="Widget.Design.TextInputLayout">
@@ -44,8 +44,8 @@
     </style>
 
     <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="boxStrokeColor">@color/colorPrimaryLight</item>
-        <item name="minHeight">@color/colorPrimaryLight</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="minHeight">@color/colorPrimary</item>
         <item name="android:textColorHint">@color/colorSecondaryDark</item>
         <!-- TextInputLayout text color-->
         <item name="hintTextColor">@color/colorPrimaryLight</item>
@@ -53,17 +53,17 @@
 
     <style name="ButtonStyleDark" parent="Widget.MaterialComponents.Button">
         <item name="cornerRadius">20dp</item>
-        <item name="android:backgroundTint">@color/colorPrimaryLight</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
         <item name="android:textColor">@color/colorSecondary</item>
-        <item name="rippleColor">@color/colorPrimary</item>
+        <item name="rippleColor">@color/colorPrimaryLight</item>
         <item name="android:minWidth">150dp</item>
     </style>
 
     <style name="ButtonStyleLight" parent="Widget.MaterialComponents.Button">
         <item name="cornerRadius">20dp</item>
-        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:backgroundTint">@color/colorPrimaryLight</item>
         <item name="android:textColor">@color/colorSecondary</item>
-        <item name="rippleColor">@color/colorPrimaryLight</item>
+        <item name="rippleColor">@color/colorPrimary</item>
         <item name="android:minWidth">150dp</item>
     </style>
 

@@ -18,13 +18,13 @@
         tools:layout="@layout/fragment_bookings"/>
 
     <fragment
-        android:id="@+id/navigation_orders"
-        android:name="com.ezeetech.saloonme.store.ui.home.UserOrdersFragment"
-        android:label="user_orders"
-        tools:layout="@layout/fragment_user_orders"/>
+        android:id="@+id/navigation_manage_store"
+        android:name="com.ezeetech.saloonme.store.ui.home.ManageStoreFragment"
+        android:label="@string/manage_store"
+        tools:layout="@layout/fragment_manage_store"/>
 
     <fragment
-        android:id="@+id/navigation_blog"
+        android:id="@+id/navigation_explore"
         android:name="com.ezeetech.saloonme.store.ui.home.UserBlogFragment"
         android:label="user_blog"
         tools:layout="@layout/fragment_bookings">
